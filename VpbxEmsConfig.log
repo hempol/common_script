@@ -1,0 +1,890 @@
+12/03/2019 10:36:00 AM - root - INFO - begin add public number
+12/03/2019 10:36:01 AM - root - INFO - public number info: {'aucPui': '22222', 'aucPvi': '7555', 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '555'}
+12/03/2019 10:36:01 AM - root - INFO - add public number successful
+
+12/03/2019 10:37:45 AM - root - INFO - begin modify public number
+12/03/2019 10:37:46 AM - root - INFO - public number info: {'aucPui': '222222', 'aucPvi': '22222221', 'ulNumInterval': '1', 'ulTotalNum': '1', 'aucPwd': '555'}
+12/03/2019 10:37:46 AM - root - INFO - modify public number successful
+12/03/2019 10:37:59 AM - root - INFO - begin modify public number
+12/03/2019 10:38:00 AM - root - INFO - public number info: {'aucPui': '22222', 'aucPvi': '22222221', 'ulNumInterval': '1', 'ulTotalNum': '1', 'aucPwd': '555'}
+12/03/2019 10:38:00 AM - root - INFO - modify public number successful
+12/03/2019 10:38:21 AM - root - INFO - begin modify public number
+12/03/2019 10:38:22 AM - root - INFO - public number info: {'aucPui': '22222', 'aucPvi': '22222222', 'ulNumInterval': '1', 'ulTotalNum': '1', 'aucPwd': '551'}
+12/03/2019 10:38:22 AM - root - INFO - modify public number successful
+12/03/2019 10:38:49 AM - root - INFO - begin delete public number
+12/03/2019 10:38:50 AM - root - INFO - public number info: {'aucPui': '22222', 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 10:38:50 AM - root - INFO - delete public number successful
+
+12/03/2019 10:39:13 AM - root - INFO - begin delete public number
+12/03/2019 10:39:13 AM - root - INFO - public number info: {'aucPui': '22222', 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 10:39:13 AM - root - ERROR - delete public number failed, response code = 500, error: {"errorCode":"757"}
+
+12/03/2019 10:39:13 AM - root - INFO - begin add tenant
+12/03/2019 10:39:14 AM - root - INFO - tenant info: {'id': 0, 'tenancyId': 0, 'tenancyName': 'wxl1', 'bussunitsId': 101, 'tenancyDomain': 'auto1.com', 'aucSbcInfo': 'default', 'userMaxNum': 100, 'tdrmMaxNum': 0, 'tmcMaxNum': 2, 'pmsiMaxNum': 2, 'cgFlag': 1, 'homeRealm': 1}
+12/03/2019 10:39:14 AM - root - ERROR - add tenant failed, response code = 500, error: {"errorCode":"701"}
+
+12/03/2019 10:39:34 AM - root - INFO - begin add tenant
+12/03/2019 10:39:35 AM - root - INFO - tenant info: {'id': 0, 'tenancyId': 0, 'tenancyName': 'wxl1', 'bussunitsId': 101, 'tenancyDomain': 'auto1.com', 'aucSbcInfo': 'default', 'userMaxNum': 100, 'tdrmMaxNum': 0, 'tmcMaxNum': 2, 'pmsiMaxNum': 2, 'cgFlag': 1, 'homeRealm': 1}
+12/03/2019 10:39:35 AM - root - ERROR - add tenant failed, response code = 500, error: {"errorCode":"701"}
+
+12/03/2019 10:49:36 AM - root - INFO - begin add tenant
+12/03/2019 10:49:36 AM - root - INFO - tenant info: {'id': 0, 'tenancyId': 0, 'tenancyName': 'wxl1', 'bussunitsId': 101, 'tenancyDomain': 'auto1.com', 'aucSbcInfo': 'default', 'userMaxNum': 100, 'tdrmMaxNum': 0, 'tmcMaxNum': 2, 'pmsiMaxNum': 2, 'cgFlag': 1, 'homeRealm': 1}
+12/03/2019 10:49:36 AM - root - INFO - add tenant successful
+12/03/2019 10:50:20 AM - root - INFO - begin modify tenant
+12/03/2019 10:51:05 AM - root - INFO - begin delete tenant
+12/03/2019 10:51:06 AM - root - INFO - tenant info: {'id': 0, 'tenancyId': 0, 'tenancyName': 'wxl1', 'bussunitsId': 101, 'tenancyDomain': 'auto1.com', 'aucSbcInfo': 'default', 'userMaxNum': 100, 'tdrmMaxNum': 0, 'tmcMaxNum': 2, 'pmsiMaxNum': 2, 'cgFlag': 1, 'homeRealm': 1}
+12/03/2019 10:51:06 AM - root - INFO - delete tenant successful
+12/03/2019 11:04:31 AM - root - INFO - begin add public number
+12/03/2019 11:04:32 AM - root - INFO - public number info: {'aucPui': '22222', 'aucPvi': '7555', 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:04:32 AM - root - INFO - add public number successful
+
+12/03/2019 11:04:32 AM - root - INFO - begin add public number
+12/03/2019 11:04:32 AM - root - INFO - public number info: {'aucPui': '22222', 'aucPvi': '7555', 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:04:32 AM - root - ERROR - add public number failed, response code = 500, error: {"errorCode":"742"}
+
+12/03/2019 11:05:23 AM - root - INFO - begin add public number
+12/03/2019 11:05:23 AM - root - INFO - public number info: {'aucPui': 10000, 'aucPvi': 10000, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:05:23 AM - root - INFO - add public number successful
+
+12/03/2019 11:05:23 AM - root - INFO - begin add public number
+12/03/2019 11:05:24 AM - root - INFO - public number info: {'aucPui': 10001, 'aucPvi': 10001, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:05:24 AM - root - INFO - add public number successful
+
+12/03/2019 11:05:51 AM - root - INFO - begin add public number
+12/03/2019 11:05:51 AM - root - INFO - public number info: {'aucPui': 10000, 'aucPvi': 10000, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:05:51 AM - root - INFO - add public number successful
+
+12/03/2019 11:05:51 AM - root - INFO - begin add public number
+12/03/2019 11:05:52 AM - root - INFO - public number info: {'aucPui': 10001, 'aucPvi': 10001, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:05:52 AM - root - INFO - add public number successful
+
+12/03/2019 11:05:52 AM - root - INFO - begin add public number
+12/03/2019 11:05:52 AM - root - INFO - public number info: {'aucPui': 10002, 'aucPvi': 10002, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:05:52 AM - root - INFO - add public number successful
+
+12/03/2019 11:05:52 AM - root - INFO - begin add public number
+12/03/2019 11:05:53 AM - root - INFO - public number info: {'aucPui': 10003, 'aucPvi': 10003, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:05:53 AM - root - INFO - add public number successful
+
+12/03/2019 11:05:53 AM - root - INFO - begin add public number
+12/03/2019 11:05:53 AM - root - INFO - public number info: {'aucPui': 10004, 'aucPvi': 10004, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:05:53 AM - root - INFO - add public number successful
+
+12/03/2019 11:05:53 AM - root - INFO - begin add public number
+12/03/2019 11:05:54 AM - root - INFO - public number info: {'aucPui': 10005, 'aucPvi': 10005, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:05:54 AM - root - INFO - add public number successful
+
+12/03/2019 11:05:54 AM - root - INFO - begin add public number
+12/03/2019 11:05:54 AM - root - INFO - public number info: {'aucPui': 10006, 'aucPvi': 10006, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:05:54 AM - root - INFO - add public number successful
+
+12/03/2019 11:05:54 AM - root - INFO - begin add public number
+12/03/2019 11:05:55 AM - root - INFO - public number info: {'aucPui': 10007, 'aucPvi': 10007, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:05:55 AM - root - INFO - add public number successful
+
+12/03/2019 11:05:55 AM - root - INFO - begin add public number
+12/03/2019 11:05:55 AM - root - INFO - public number info: {'aucPui': 10008, 'aucPvi': 10008, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:05:55 AM - root - INFO - add public number successful
+
+12/03/2019 11:05:55 AM - root - INFO - begin add public number
+12/03/2019 11:05:56 AM - root - INFO - public number info: {'aucPui': 10009, 'aucPvi': 10009, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:05:56 AM - root - INFO - add public number successful
+
+12/03/2019 11:05:56 AM - root - INFO - begin add public number
+12/03/2019 11:05:56 AM - root - INFO - public number info: {'aucPui': 10010, 'aucPvi': 10010, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:05:56 AM - root - INFO - add public number successful
+
+12/03/2019 11:05:56 AM - root - INFO - begin add public number
+12/03/2019 11:05:57 AM - root - INFO - public number info: {'aucPui': 10011, 'aucPvi': 10011, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:05:57 AM - root - INFO - add public number successful
+
+12/03/2019 11:05:57 AM - root - INFO - begin add public number
+12/03/2019 11:05:57 AM - root - INFO - public number info: {'aucPui': 10012, 'aucPvi': 10012, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:05:57 AM - root - INFO - add public number successful
+
+12/03/2019 11:05:57 AM - root - INFO - begin add public number
+12/03/2019 11:05:58 AM - root - INFO - public number info: {'aucPui': 10013, 'aucPvi': 10013, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:05:58 AM - root - INFO - add public number successful
+
+12/03/2019 11:05:58 AM - root - INFO - begin add public number
+12/03/2019 11:05:59 AM - root - INFO - public number info: {'aucPui': 10014, 'aucPvi': 10014, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:05:59 AM - root - INFO - add public number successful
+
+12/03/2019 11:05:59 AM - root - INFO - begin add public number
+12/03/2019 11:05:59 AM - root - INFO - public number info: {'aucPui': 10015, 'aucPvi': 10015, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:05:59 AM - root - INFO - add public number successful
+
+12/03/2019 11:05:59 AM - root - INFO - begin add public number
+12/03/2019 11:06:00 AM - root - INFO - public number info: {'aucPui': 10016, 'aucPvi': 10016, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:00 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:00 AM - root - INFO - begin add public number
+12/03/2019 11:06:00 AM - root - INFO - public number info: {'aucPui': 10017, 'aucPvi': 10017, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:00 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:00 AM - root - INFO - begin add public number
+12/03/2019 11:06:01 AM - root - INFO - public number info: {'aucPui': 10018, 'aucPvi': 10018, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:01 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:01 AM - root - INFO - begin add public number
+12/03/2019 11:06:01 AM - root - INFO - public number info: {'aucPui': 10019, 'aucPvi': 10019, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:01 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:01 AM - root - INFO - begin add public number
+12/03/2019 11:06:02 AM - root - INFO - public number info: {'aucPui': 10020, 'aucPvi': 10020, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:02 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:02 AM - root - INFO - begin add public number
+12/03/2019 11:06:02 AM - root - INFO - public number info: {'aucPui': 10021, 'aucPvi': 10021, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:02 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:02 AM - root - INFO - begin add public number
+12/03/2019 11:06:03 AM - root - INFO - public number info: {'aucPui': 10022, 'aucPvi': 10022, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:03 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:03 AM - root - INFO - begin add public number
+12/03/2019 11:06:03 AM - root - INFO - public number info: {'aucPui': 10023, 'aucPvi': 10023, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:03 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:03 AM - root - INFO - begin add public number
+12/03/2019 11:06:04 AM - root - INFO - public number info: {'aucPui': 10024, 'aucPvi': 10024, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:04 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:04 AM - root - INFO - begin add public number
+12/03/2019 11:06:04 AM - root - INFO - public number info: {'aucPui': 10025, 'aucPvi': 10025, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:04 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:04 AM - root - INFO - begin add public number
+12/03/2019 11:06:05 AM - root - INFO - public number info: {'aucPui': 10026, 'aucPvi': 10026, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:05 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:05 AM - root - INFO - begin add public number
+12/03/2019 11:06:05 AM - root - INFO - public number info: {'aucPui': 10027, 'aucPvi': 10027, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:05 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:05 AM - root - INFO - begin add public number
+12/03/2019 11:06:06 AM - root - INFO - public number info: {'aucPui': 10028, 'aucPvi': 10028, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:06 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:06 AM - root - INFO - begin add public number
+12/03/2019 11:06:06 AM - root - INFO - public number info: {'aucPui': 10029, 'aucPvi': 10029, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:06 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:06 AM - root - INFO - begin add public number
+12/03/2019 11:06:07 AM - root - INFO - public number info: {'aucPui': 10030, 'aucPvi': 10030, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:07 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:07 AM - root - INFO - begin add public number
+12/03/2019 11:06:07 AM - root - INFO - public number info: {'aucPui': 10031, 'aucPvi': 10031, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:07 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:07 AM - root - INFO - begin add public number
+12/03/2019 11:06:08 AM - root - INFO - public number info: {'aucPui': 10032, 'aucPvi': 10032, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:08 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:08 AM - root - INFO - begin add public number
+12/03/2019 11:06:08 AM - root - INFO - public number info: {'aucPui': 10033, 'aucPvi': 10033, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:08 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:08 AM - root - INFO - begin add public number
+12/03/2019 11:06:09 AM - root - INFO - public number info: {'aucPui': 10034, 'aucPvi': 10034, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:09 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:09 AM - root - INFO - begin add public number
+12/03/2019 11:06:10 AM - root - INFO - public number info: {'aucPui': 10035, 'aucPvi': 10035, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:10 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:10 AM - root - INFO - begin add public number
+12/03/2019 11:06:10 AM - root - INFO - public number info: {'aucPui': 10036, 'aucPvi': 10036, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:10 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:10 AM - root - INFO - begin add public number
+12/03/2019 11:06:11 AM - root - INFO - public number info: {'aucPui': 10037, 'aucPvi': 10037, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:11 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:11 AM - root - INFO - begin add public number
+12/03/2019 11:06:11 AM - root - INFO - public number info: {'aucPui': 10038, 'aucPvi': 10038, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:11 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:11 AM - root - INFO - begin add public number
+12/03/2019 11:06:12 AM - root - INFO - public number info: {'aucPui': 10039, 'aucPvi': 10039, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:12 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:12 AM - root - INFO - begin add public number
+12/03/2019 11:06:12 AM - root - INFO - public number info: {'aucPui': 10040, 'aucPvi': 10040, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:12 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:12 AM - root - INFO - begin add public number
+12/03/2019 11:06:13 AM - root - INFO - public number info: {'aucPui': 10041, 'aucPvi': 10041, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:13 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:13 AM - root - INFO - begin add public number
+12/03/2019 11:06:13 AM - root - INFO - public number info: {'aucPui': 10042, 'aucPvi': 10042, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:13 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:13 AM - root - INFO - begin add public number
+12/03/2019 11:06:14 AM - root - INFO - public number info: {'aucPui': 10043, 'aucPvi': 10043, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:14 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:14 AM - root - INFO - begin add public number
+12/03/2019 11:06:14 AM - root - INFO - public number info: {'aucPui': 10044, 'aucPvi': 10044, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:14 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:14 AM - root - INFO - begin add public number
+12/03/2019 11:06:15 AM - root - INFO - public number info: {'aucPui': 10045, 'aucPvi': 10045, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:15 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:15 AM - root - INFO - begin add public number
+12/03/2019 11:06:15 AM - root - INFO - public number info: {'aucPui': 10046, 'aucPvi': 10046, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:15 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:15 AM - root - INFO - begin add public number
+12/03/2019 11:06:16 AM - root - INFO - public number info: {'aucPui': 10047, 'aucPvi': 10047, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:16 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:16 AM - root - INFO - begin add public number
+12/03/2019 11:06:16 AM - root - INFO - public number info: {'aucPui': 10048, 'aucPvi': 10048, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:16 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:16 AM - root - INFO - begin add public number
+12/03/2019 11:06:17 AM - root - INFO - public number info: {'aucPui': 10049, 'aucPvi': 10049, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:17 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:17 AM - root - INFO - begin add public number
+12/03/2019 11:06:17 AM - root - INFO - public number info: {'aucPui': 10050, 'aucPvi': 10050, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:17 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:17 AM - root - INFO - begin add public number
+12/03/2019 11:06:18 AM - root - INFO - public number info: {'aucPui': 10051, 'aucPvi': 10051, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:18 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:18 AM - root - INFO - begin add public number
+12/03/2019 11:06:18 AM - root - INFO - public number info: {'aucPui': 10052, 'aucPvi': 10052, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:18 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:18 AM - root - INFO - begin add public number
+12/03/2019 11:06:19 AM - root - INFO - public number info: {'aucPui': 10053, 'aucPvi': 10053, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:19 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:19 AM - root - INFO - begin add public number
+12/03/2019 11:06:20 AM - root - INFO - public number info: {'aucPui': 10054, 'aucPvi': 10054, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:20 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:20 AM - root - INFO - begin add public number
+12/03/2019 11:06:20 AM - root - INFO - public number info: {'aucPui': 10055, 'aucPvi': 10055, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:20 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:20 AM - root - INFO - begin add public number
+12/03/2019 11:06:21 AM - root - INFO - public number info: {'aucPui': 10056, 'aucPvi': 10056, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:21 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:21 AM - root - INFO - begin add public number
+12/03/2019 11:06:21 AM - root - INFO - public number info: {'aucPui': 10057, 'aucPvi': 10057, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:21 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:21 AM - root - INFO - begin add public number
+12/03/2019 11:06:22 AM - root - INFO - public number info: {'aucPui': 10058, 'aucPvi': 10058, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:22 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:22 AM - root - INFO - begin add public number
+12/03/2019 11:06:22 AM - root - INFO - public number info: {'aucPui': 10059, 'aucPvi': 10059, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:22 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:22 AM - root - INFO - begin add public number
+12/03/2019 11:06:23 AM - root - INFO - public number info: {'aucPui': 10060, 'aucPvi': 10060, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:23 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:23 AM - root - INFO - begin add public number
+12/03/2019 11:06:23 AM - root - INFO - public number info: {'aucPui': 10061, 'aucPvi': 10061, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:23 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:23 AM - root - INFO - begin add public number
+12/03/2019 11:06:24 AM - root - INFO - public number info: {'aucPui': 10062, 'aucPvi': 10062, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:24 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:24 AM - root - INFO - begin add public number
+12/03/2019 11:06:24 AM - root - INFO - public number info: {'aucPui': 10063, 'aucPvi': 10063, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:24 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:24 AM - root - INFO - begin add public number
+12/03/2019 11:06:25 AM - root - INFO - public number info: {'aucPui': 10064, 'aucPvi': 10064, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:25 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:25 AM - root - INFO - begin add public number
+12/03/2019 11:06:25 AM - root - INFO - public number info: {'aucPui': 10065, 'aucPvi': 10065, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:25 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:25 AM - root - INFO - begin add public number
+12/03/2019 11:06:26 AM - root - INFO - public number info: {'aucPui': 10066, 'aucPvi': 10066, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:26 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:26 AM - root - INFO - begin add public number
+12/03/2019 11:06:26 AM - root - INFO - public number info: {'aucPui': 10067, 'aucPvi': 10067, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:26 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:26 AM - root - INFO - begin add public number
+12/03/2019 11:06:27 AM - root - INFO - public number info: {'aucPui': 10068, 'aucPvi': 10068, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:27 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:27 AM - root - INFO - begin add public number
+12/03/2019 11:06:27 AM - root - INFO - public number info: {'aucPui': 10069, 'aucPvi': 10069, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:27 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:27 AM - root - INFO - begin add public number
+12/03/2019 11:06:28 AM - root - INFO - public number info: {'aucPui': 10070, 'aucPvi': 10070, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:28 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:28 AM - root - INFO - begin add public number
+12/03/2019 11:06:28 AM - root - INFO - public number info: {'aucPui': 10071, 'aucPvi': 10071, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:28 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:28 AM - root - INFO - begin add public number
+12/03/2019 11:06:29 AM - root - INFO - public number info: {'aucPui': 10072, 'aucPvi': 10072, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:29 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:29 AM - root - INFO - begin add public number
+12/03/2019 11:06:29 AM - root - INFO - public number info: {'aucPui': 10073, 'aucPvi': 10073, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:29 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:29 AM - root - INFO - begin add public number
+12/03/2019 11:06:30 AM - root - INFO - public number info: {'aucPui': 10074, 'aucPvi': 10074, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:30 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:30 AM - root - INFO - begin add public number
+12/03/2019 11:06:30 AM - root - INFO - public number info: {'aucPui': 10075, 'aucPvi': 10075, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:30 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:30 AM - root - INFO - begin add public number
+12/03/2019 11:06:31 AM - root - INFO - public number info: {'aucPui': 10076, 'aucPvi': 10076, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:31 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:31 AM - root - INFO - begin add public number
+12/03/2019 11:06:31 AM - root - INFO - public number info: {'aucPui': 10077, 'aucPvi': 10077, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:31 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:31 AM - root - INFO - begin add public number
+12/03/2019 11:06:32 AM - root - INFO - public number info: {'aucPui': 10078, 'aucPvi': 10078, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:32 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:32 AM - root - INFO - begin add public number
+12/03/2019 11:06:32 AM - root - INFO - public number info: {'aucPui': 10079, 'aucPvi': 10079, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:32 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:32 AM - root - INFO - begin add public number
+12/03/2019 11:06:33 AM - root - INFO - public number info: {'aucPui': 10080, 'aucPvi': 10080, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:33 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:33 AM - root - INFO - begin add public number
+12/03/2019 11:06:33 AM - root - INFO - public number info: {'aucPui': 10081, 'aucPvi': 10081, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:33 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:33 AM - root - INFO - begin add public number
+12/03/2019 11:06:34 AM - root - INFO - public number info: {'aucPui': 10082, 'aucPvi': 10082, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:34 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:34 AM - root - INFO - begin add public number
+12/03/2019 11:06:35 AM - root - INFO - public number info: {'aucPui': 10083, 'aucPvi': 10083, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:35 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:35 AM - root - INFO - begin add public number
+12/03/2019 11:06:35 AM - root - INFO - public number info: {'aucPui': 10084, 'aucPvi': 10084, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:35 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:35 AM - root - INFO - begin add public number
+12/03/2019 11:06:36 AM - root - INFO - public number info: {'aucPui': 10085, 'aucPvi': 10085, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:36 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:36 AM - root - INFO - begin add public number
+12/03/2019 11:06:36 AM - root - INFO - public number info: {'aucPui': 10086, 'aucPvi': 10086, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:36 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:36 AM - root - INFO - begin add public number
+12/03/2019 11:06:37 AM - root - INFO - public number info: {'aucPui': 10087, 'aucPvi': 10087, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:37 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:37 AM - root - INFO - begin add public number
+12/03/2019 11:06:37 AM - root - INFO - public number info: {'aucPui': 10088, 'aucPvi': 10088, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:37 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:37 AM - root - INFO - begin add public number
+12/03/2019 11:06:38 AM - root - INFO - public number info: {'aucPui': 10089, 'aucPvi': 10089, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:38 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:38 AM - root - INFO - begin add public number
+12/03/2019 11:06:38 AM - root - INFO - public number info: {'aucPui': 10090, 'aucPvi': 10090, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:38 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:38 AM - root - INFO - begin add public number
+12/03/2019 11:06:39 AM - root - INFO - public number info: {'aucPui': 10091, 'aucPvi': 10091, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:39 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:39 AM - root - INFO - begin add public number
+12/03/2019 11:06:39 AM - root - INFO - public number info: {'aucPui': 10092, 'aucPvi': 10092, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:39 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:39 AM - root - INFO - begin add public number
+12/03/2019 11:06:40 AM - root - INFO - public number info: {'aucPui': 10093, 'aucPvi': 10093, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:40 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:40 AM - root - INFO - begin add public number
+12/03/2019 11:06:40 AM - root - INFO - public number info: {'aucPui': 10094, 'aucPvi': 10094, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:40 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:40 AM - root - INFO - begin add public number
+12/03/2019 11:06:41 AM - root - INFO - public number info: {'aucPui': 10095, 'aucPvi': 10095, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:41 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:41 AM - root - INFO - begin add public number
+12/03/2019 11:06:41 AM - root - INFO - public number info: {'aucPui': 10096, 'aucPvi': 10096, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:41 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:41 AM - root - INFO - begin add public number
+12/03/2019 11:06:42 AM - root - INFO - public number info: {'aucPui': 10097, 'aucPvi': 10097, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:42 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:42 AM - root - INFO - begin add public number
+12/03/2019 11:06:42 AM - root - INFO - public number info: {'aucPui': 10098, 'aucPvi': 10098, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:42 AM - root - INFO - add public number successful
+
+12/03/2019 11:06:42 AM - root - INFO - begin add public number
+12/03/2019 11:06:43 AM - root - INFO - public number info: {'aucPui': 10099, 'aucPvi': 10099, 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '1'}
+12/03/2019 11:06:43 AM - root - INFO - add public number successful
+
+12/03/2019 11:08:14 AM - root - INFO - begin delete public number
+12/03/2019 11:08:15 AM - root - INFO - public number info: {'aucPui': 10000, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:15 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:15 AM - root - INFO - begin delete public number
+12/03/2019 11:08:15 AM - root - INFO - public number info: {'aucPui': 10001, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:15 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:15 AM - root - INFO - begin delete public number
+12/03/2019 11:08:16 AM - root - INFO - public number info: {'aucPui': 10002, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:16 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:16 AM - root - INFO - begin delete public number
+12/03/2019 11:08:17 AM - root - INFO - public number info: {'aucPui': 10003, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:17 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:17 AM - root - INFO - begin delete public number
+12/03/2019 11:08:17 AM - root - INFO - public number info: {'aucPui': 10004, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:17 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:17 AM - root - INFO - begin delete public number
+12/03/2019 11:08:18 AM - root - INFO - public number info: {'aucPui': 10005, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:18 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:18 AM - root - INFO - begin delete public number
+12/03/2019 11:08:18 AM - root - INFO - public number info: {'aucPui': 10006, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:18 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:18 AM - root - INFO - begin delete public number
+12/03/2019 11:08:19 AM - root - INFO - public number info: {'aucPui': 10007, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:19 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:19 AM - root - INFO - begin delete public number
+12/03/2019 11:08:19 AM - root - INFO - public number info: {'aucPui': 10008, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:19 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:19 AM - root - INFO - begin delete public number
+12/03/2019 11:08:20 AM - root - INFO - public number info: {'aucPui': 10009, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:20 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:20 AM - root - INFO - begin delete public number
+12/03/2019 11:08:20 AM - root - INFO - public number info: {'aucPui': 10010, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:20 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:20 AM - root - INFO - begin delete public number
+12/03/2019 11:08:21 AM - root - INFO - public number info: {'aucPui': 10011, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:21 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:21 AM - root - INFO - begin delete public number
+12/03/2019 11:08:21 AM - root - INFO - public number info: {'aucPui': 10012, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:21 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:21 AM - root - INFO - begin delete public number
+12/03/2019 11:08:22 AM - root - INFO - public number info: {'aucPui': 10013, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:22 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:22 AM - root - INFO - begin delete public number
+12/03/2019 11:08:22 AM - root - INFO - public number info: {'aucPui': 10014, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:22 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:22 AM - root - INFO - begin delete public number
+12/03/2019 11:08:23 AM - root - INFO - public number info: {'aucPui': 10015, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:23 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:23 AM - root - INFO - begin delete public number
+12/03/2019 11:08:23 AM - root - INFO - public number info: {'aucPui': 10016, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:23 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:23 AM - root - INFO - begin delete public number
+12/03/2019 11:08:24 AM - root - INFO - public number info: {'aucPui': 10017, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:24 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:24 AM - root - INFO - begin delete public number
+12/03/2019 11:08:24 AM - root - INFO - public number info: {'aucPui': 10018, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:24 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:24 AM - root - INFO - begin delete public number
+12/03/2019 11:08:25 AM - root - INFO - public number info: {'aucPui': 10019, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:25 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:25 AM - root - INFO - begin delete public number
+12/03/2019 11:08:26 AM - root - INFO - public number info: {'aucPui': 10020, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:26 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:26 AM - root - INFO - begin delete public number
+12/03/2019 11:08:26 AM - root - INFO - public number info: {'aucPui': 10021, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:26 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:26 AM - root - INFO - begin delete public number
+12/03/2019 11:08:27 AM - root - INFO - public number info: {'aucPui': 10022, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:27 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:27 AM - root - INFO - begin delete public number
+12/03/2019 11:08:27 AM - root - INFO - public number info: {'aucPui': 10023, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:27 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:27 AM - root - INFO - begin delete public number
+12/03/2019 11:08:28 AM - root - INFO - public number info: {'aucPui': 10024, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:28 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:28 AM - root - INFO - begin delete public number
+12/03/2019 11:08:28 AM - root - INFO - public number info: {'aucPui': 10025, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:28 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:28 AM - root - INFO - begin delete public number
+12/03/2019 11:08:29 AM - root - INFO - public number info: {'aucPui': 10026, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:29 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:29 AM - root - INFO - begin delete public number
+12/03/2019 11:08:29 AM - root - INFO - public number info: {'aucPui': 10027, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:29 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:29 AM - root - INFO - begin delete public number
+12/03/2019 11:08:30 AM - root - INFO - public number info: {'aucPui': 10028, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:30 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:30 AM - root - INFO - begin delete public number
+12/03/2019 11:08:30 AM - root - INFO - public number info: {'aucPui': 10029, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:30 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:30 AM - root - INFO - begin delete public number
+12/03/2019 11:08:31 AM - root - INFO - public number info: {'aucPui': 10030, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:31 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:31 AM - root - INFO - begin delete public number
+12/03/2019 11:08:31 AM - root - INFO - public number info: {'aucPui': 10031, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:31 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:31 AM - root - INFO - begin delete public number
+12/03/2019 11:08:32 AM - root - INFO - public number info: {'aucPui': 10032, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:32 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:32 AM - root - INFO - begin delete public number
+12/03/2019 11:08:32 AM - root - INFO - public number info: {'aucPui': 10033, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:32 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:32 AM - root - INFO - begin delete public number
+12/03/2019 11:08:33 AM - root - INFO - public number info: {'aucPui': 10034, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:33 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:33 AM - root - INFO - begin delete public number
+12/03/2019 11:08:33 AM - root - INFO - public number info: {'aucPui': 10035, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:33 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:33 AM - root - INFO - begin delete public number
+12/03/2019 11:08:34 AM - root - INFO - public number info: {'aucPui': 10036, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:34 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:34 AM - root - INFO - begin delete public number
+12/03/2019 11:08:34 AM - root - INFO - public number info: {'aucPui': 10037, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:34 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:34 AM - root - INFO - begin delete public number
+12/03/2019 11:08:35 AM - root - INFO - public number info: {'aucPui': 10038, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:35 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:35 AM - root - INFO - begin delete public number
+12/03/2019 11:08:36 AM - root - INFO - public number info: {'aucPui': 10039, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:36 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:36 AM - root - INFO - begin delete public number
+12/03/2019 11:08:36 AM - root - INFO - public number info: {'aucPui': 10040, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:36 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:36 AM - root - INFO - begin delete public number
+12/03/2019 11:08:37 AM - root - INFO - public number info: {'aucPui': 10041, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:37 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:37 AM - root - INFO - begin delete public number
+12/03/2019 11:08:37 AM - root - INFO - public number info: {'aucPui': 10042, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:37 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:37 AM - root - INFO - begin delete public number
+12/03/2019 11:08:38 AM - root - INFO - public number info: {'aucPui': 10043, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:38 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:38 AM - root - INFO - begin delete public number
+12/03/2019 11:08:38 AM - root - INFO - public number info: {'aucPui': 10044, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:38 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:38 AM - root - INFO - begin delete public number
+12/03/2019 11:08:39 AM - root - INFO - public number info: {'aucPui': 10045, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:39 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:39 AM - root - INFO - begin delete public number
+12/03/2019 11:08:39 AM - root - INFO - public number info: {'aucPui': 10046, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:39 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:39 AM - root - INFO - begin delete public number
+12/03/2019 11:08:40 AM - root - INFO - public number info: {'aucPui': 10047, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:40 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:40 AM - root - INFO - begin delete public number
+12/03/2019 11:08:40 AM - root - INFO - public number info: {'aucPui': 10048, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:40 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:40 AM - root - INFO - begin delete public number
+12/03/2019 11:08:41 AM - root - INFO - public number info: {'aucPui': 10049, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:41 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:41 AM - root - INFO - begin delete public number
+12/03/2019 11:08:41 AM - root - INFO - public number info: {'aucPui': 10050, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:41 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:41 AM - root - INFO - begin delete public number
+12/03/2019 11:08:42 AM - root - INFO - public number info: {'aucPui': 10051, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:42 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:42 AM - root - INFO - begin delete public number
+12/03/2019 11:08:42 AM - root - INFO - public number info: {'aucPui': 10052, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:42 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:42 AM - root - INFO - begin delete public number
+12/03/2019 11:08:43 AM - root - INFO - public number info: {'aucPui': 10053, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:43 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:43 AM - root - INFO - begin delete public number
+12/03/2019 11:08:43 AM - root - INFO - public number info: {'aucPui': 10054, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:43 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:43 AM - root - INFO - begin delete public number
+12/03/2019 11:08:44 AM - root - INFO - public number info: {'aucPui': 10055, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:44 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:44 AM - root - INFO - begin delete public number
+12/03/2019 11:08:45 AM - root - INFO - public number info: {'aucPui': 10056, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:45 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:45 AM - root - INFO - begin delete public number
+12/03/2019 11:08:45 AM - root - INFO - public number info: {'aucPui': 10057, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:45 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:45 AM - root - INFO - begin delete public number
+12/03/2019 11:08:46 AM - root - INFO - public number info: {'aucPui': 10058, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:46 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:46 AM - root - INFO - begin delete public number
+12/03/2019 11:08:46 AM - root - INFO - public number info: {'aucPui': 10059, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:46 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:46 AM - root - INFO - begin delete public number
+12/03/2019 11:08:47 AM - root - INFO - public number info: {'aucPui': 10060, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:47 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:47 AM - root - INFO - begin delete public number
+12/03/2019 11:08:47 AM - root - INFO - public number info: {'aucPui': 10061, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:47 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:47 AM - root - INFO - begin delete public number
+12/03/2019 11:08:48 AM - root - INFO - public number info: {'aucPui': 10062, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:48 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:48 AM - root - INFO - begin delete public number
+12/03/2019 11:08:48 AM - root - INFO - public number info: {'aucPui': 10063, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:48 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:48 AM - root - INFO - begin delete public number
+12/03/2019 11:08:49 AM - root - INFO - public number info: {'aucPui': 10064, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:49 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:49 AM - root - INFO - begin delete public number
+12/03/2019 11:08:49 AM - root - INFO - public number info: {'aucPui': 10065, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:49 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:49 AM - root - INFO - begin delete public number
+12/03/2019 11:08:50 AM - root - INFO - public number info: {'aucPui': 10066, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:50 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:50 AM - root - INFO - begin delete public number
+12/03/2019 11:08:50 AM - root - INFO - public number info: {'aucPui': 10067, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:50 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:50 AM - root - INFO - begin delete public number
+12/03/2019 11:08:51 AM - root - INFO - public number info: {'aucPui': 10068, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:51 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:51 AM - root - INFO - begin delete public number
+12/03/2019 11:08:51 AM - root - INFO - public number info: {'aucPui': 10069, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:51 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:51 AM - root - INFO - begin delete public number
+12/03/2019 11:08:52 AM - root - INFO - public number info: {'aucPui': 10070, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:52 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:52 AM - root - INFO - begin delete public number
+12/03/2019 11:08:52 AM - root - INFO - public number info: {'aucPui': 10071, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:52 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:52 AM - root - INFO - begin delete public number
+12/03/2019 11:08:53 AM - root - INFO - public number info: {'aucPui': 10072, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:53 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:53 AM - root - INFO - begin delete public number
+12/03/2019 11:08:54 AM - root - INFO - public number info: {'aucPui': 10073, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:54 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:54 AM - root - INFO - begin delete public number
+12/03/2019 11:08:54 AM - root - INFO - public number info: {'aucPui': 10074, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:54 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:54 AM - root - INFO - begin delete public number
+12/03/2019 11:08:55 AM - root - INFO - public number info: {'aucPui': 10075, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:55 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:55 AM - root - INFO - begin delete public number
+12/03/2019 11:08:55 AM - root - INFO - public number info: {'aucPui': 10076, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:55 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:55 AM - root - INFO - begin delete public number
+12/03/2019 11:08:56 AM - root - INFO - public number info: {'aucPui': 10077, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:56 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:56 AM - root - INFO - begin delete public number
+12/03/2019 11:08:56 AM - root - INFO - public number info: {'aucPui': 10078, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:56 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:56 AM - root - INFO - begin delete public number
+12/03/2019 11:08:57 AM - root - INFO - public number info: {'aucPui': 10079, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:57 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:57 AM - root - INFO - begin delete public number
+12/03/2019 11:08:57 AM - root - INFO - public number info: {'aucPui': 10080, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:57 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:57 AM - root - INFO - begin delete public number
+12/03/2019 11:08:58 AM - root - INFO - public number info: {'aucPui': 10081, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:58 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:58 AM - root - INFO - begin delete public number
+12/03/2019 11:08:58 AM - root - INFO - public number info: {'aucPui': 10082, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:58 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:58 AM - root - INFO - begin delete public number
+12/03/2019 11:08:59 AM - root - INFO - public number info: {'aucPui': 10083, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:59 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:59 AM - root - INFO - begin delete public number
+12/03/2019 11:08:59 AM - root - INFO - public number info: {'aucPui': 10084, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:08:59 AM - root - INFO - delete public number successful
+
+12/03/2019 11:08:59 AM - root - INFO - begin delete public number
+12/03/2019 11:09:00 AM - root - INFO - public number info: {'aucPui': 10085, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:09:00 AM - root - INFO - delete public number successful
+
+12/03/2019 11:09:00 AM - root - INFO - begin delete public number
+12/03/2019 11:09:00 AM - root - INFO - public number info: {'aucPui': 10086, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:09:00 AM - root - INFO - delete public number successful
+
+12/03/2019 11:09:00 AM - root - INFO - begin delete public number
+12/03/2019 11:09:01 AM - root - INFO - public number info: {'aucPui': 10087, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:09:01 AM - root - INFO - delete public number successful
+
+12/03/2019 11:09:01 AM - root - INFO - begin delete public number
+12/03/2019 11:09:02 AM - root - INFO - public number info: {'aucPui': 10088, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:09:02 AM - root - INFO - delete public number successful
+
+12/03/2019 11:09:02 AM - root - INFO - begin delete public number
+12/03/2019 11:09:02 AM - root - INFO - public number info: {'aucPui': 10089, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:09:02 AM - root - INFO - delete public number successful
+
+12/03/2019 11:09:02 AM - root - INFO - begin delete public number
+12/03/2019 11:09:03 AM - root - INFO - public number info: {'aucPui': 10090, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:09:03 AM - root - INFO - delete public number successful
+
+12/03/2019 11:09:03 AM - root - INFO - begin delete public number
+12/03/2019 11:09:03 AM - root - INFO - public number info: {'aucPui': 10091, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:09:03 AM - root - INFO - delete public number successful
+
+12/03/2019 11:09:03 AM - root - INFO - begin delete public number
+12/03/2019 11:09:04 AM - root - INFO - public number info: {'aucPui': 10092, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:09:04 AM - root - INFO - delete public number successful
+
+12/03/2019 11:09:04 AM - root - INFO - begin delete public number
+12/03/2019 11:09:04 AM - root - INFO - public number info: {'aucPui': 10093, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:09:04 AM - root - INFO - delete public number successful
+
+12/03/2019 11:09:04 AM - root - INFO - begin delete public number
+12/03/2019 11:09:05 AM - root - INFO - public number info: {'aucPui': 10094, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:09:05 AM - root - INFO - delete public number successful
+
+12/03/2019 11:09:05 AM - root - INFO - begin delete public number
+12/03/2019 11:09:05 AM - root - INFO - public number info: {'aucPui': 10095, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:09:05 AM - root - INFO - delete public number successful
+
+12/03/2019 11:09:05 AM - root - INFO - begin delete public number
+12/03/2019 11:09:06 AM - root - INFO - public number info: {'aucPui': 10096, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:09:06 AM - root - INFO - delete public number successful
+
+12/03/2019 11:09:06 AM - root - INFO - begin delete public number
+12/03/2019 11:09:06 AM - root - INFO - public number info: {'aucPui': 10097, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:09:06 AM - root - INFO - delete public number successful
+
+12/03/2019 11:09:06 AM - root - INFO - begin delete public number
+12/03/2019 11:09:07 AM - root - INFO - public number info: {'aucPui': 10098, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:09:07 AM - root - INFO - delete public number successful
+
+12/03/2019 11:09:07 AM - root - INFO - begin delete public number
+12/03/2019 11:09:07 AM - root - INFO - public number info: {'aucPui': 10099, 'aucPvi': None, 'aucPwd': None, 'aucTenantInfo': '', 'operation': '', 'ucState': '0', 'ulNumInterval': 1, 'ulTotalNum': 1}
+12/03/2019 11:09:07 AM - root - INFO - delete public number successful
+
+12/03/2019 01:47:30 PM - root - INFO - begin add tenant
+12/03/2019 01:47:31 PM - root - INFO - tenant info: {'id': 0, 'tenancyId': 0, 'tenancyName': 'wxl1', 'bussunitsId': 101, 'tenancyDomain': 'auto1.com', 'aucSbcInfo': 'default', 'userMaxNum': 100, 'tdrmMaxNum': 0, 'tmcMaxNum': 2, 'pmsiMaxNum': 2, 'cgFlag': 1, 'homeRealm': 1}
+12/03/2019 01:47:31 PM - root - INFO - add tenant successful
+12/03/2019 01:49:28 PM - root - INFO - begin delete tenant
+12/03/2019 01:49:29 PM - root - INFO - tenant info: {'id': 0, 'tenancyId': 0, 'tenancyName': 'wxl1', 'bussunitsId': 101, 'tenancyDomain': 'auto1.com', 'aucSbcInfo': 'default', 'userMaxNum': 100, 'tdrmMaxNum': 0, 'tmcMaxNum': 2, 'pmsiMaxNum': 2, 'cgFlag': 1, 'homeRealm': 1}
+12/03/2019 01:49:29 PM - root - INFO - delete tenant successful
+12/03/2019 02:10:45 PM - root - INFO - begin add tenant
+12/03/2019 02:10:45 PM - root - INFO - tenant info: {'id': 0, 'tenancyId': 0, 'tenancyName': 'wxl1', 'bussunitsId': 101, 'tenancyDomain': 'auto1.com', 'aucSbcInfo': 'default', 'userMaxNum': 100, 'tdrmMaxNum': 0, 'tmcMaxNum': 2, 'pmsiMaxNum': 2, 'cgFlag': 1, 'homeRealm': 1}
+12/03/2019 02:10:45 PM - root - INFO - add tenant successful
+
+12/03/2019 02:11:04 PM - root - INFO - begin modify tenant
+12/03/2019 02:11:14 PM - root - INFO - mysql select operate successful, return: [11, 12]
+
+12/03/2019 02:11:14 PM - root - INFO - tenant info: {'id': 11, 'tenancyId': 12, 'tenancyName': 'wxl1', 'bussunitsId': 101, 'tenancyDomain': 'auto1.com', 'aucSbcInfo': 'default', 'userMaxNum': 10, 'tdrmMaxNum': 0, 'tmcMaxNum': 2, 'pmsiMaxNum': 2, 'cgFlag': 1, 'homeRealm': 1}
+12/03/2019 02:11:14 PM - root - INFO - modify tenant successful
+
+12/03/2019 02:14:03 PM - root - INFO - begin delete tenant
+12/03/2019 02:14:13 PM - root - INFO - mysql select operate successful, return: [11, 12]
+
+12/03/2019 02:14:14 PM - root - INFO - tenant info: {'id': 11, 'tenancyId': 12, 'tenancyName': 'wxl1', 'bussunitsId': 101, 'tenancyDomain': 'auto1.com', 'aucSbcInfo': 'default', 'userMaxNum': 100, 'tdrmMaxNum': 0, 'tmcMaxNum': 2, 'pmsiMaxNum': 2, 'cgFlag': 1, 'homeRealm': 1}
+12/03/2019 02:14:14 PM - root - INFO - delete tenant successful
+
+12/03/2019 03:07:42 PM - root - INFO - begin add tenant
+12/03/2019 03:07:42 PM - root - INFO - tenant info: {'id': 0, 'tenancyId': 0, 'tenancyName': 'wxl1', 'bussunitsId': 101, 'tenancyDomain': 'auto1.com', 'aucSbcInfo': 'default', 'userMaxNum': 100, 'tdrmMaxNum': 0, 'tmcMaxNum': 2, 'pmsiMaxNum': 2, 'cgFlag': 1, 'homeRealm': 1}
+12/03/2019 03:07:42 PM - root - INFO - add tenant successful
+
+12/03/2019 03:09:12 PM - root - INFO - begin add tenant
+12/03/2019 03:09:13 PM - root - INFO - tenant info: {'id': 0, 'tenancyId': 0, 'tenancyName': 'wxl1', 'bussunitsId': 101, 'tenancyDomain': 'auto1.com', 'aucSbcInfo': 'default', 'userMaxNum': 200, 'tdrmMaxNum': 0, 'tmcMaxNum': 2, 'pmsiMaxNum': 2, 'cgFlag': 1, 'homeRealm': 1}
+12/03/2019 03:09:13 PM - root - INFO - add tenant successful
+
+12/06/2019 04:28:28 PM - root - INFO - begin add public number
+12/06/2019 04:28:29 PM - root - INFO - public number info: {'aucPui': '22222', 'aucPvi': '7555', 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '555'}
+12/06/2019 04:28:29 PM - root - INFO - add public number successful
+
+12/06/2019 04:29:13 PM - root - INFO - begin add public number
+12/06/2019 04:29:14 PM - root - INFO - public number info: {'aucPui': '22222', 'aucPvi': '7555', 'ulNumInterval': 1, 'ulTotalNum': 1, 'aucPwd': '555'}
+12/06/2019 04:29:14 PM - root - INFO - add public number successful
+
