@@ -32,7 +32,6 @@ RESOURCE_COMMANDS = {'shell_imp_as_show_ccb': '', 'shell_mrf_mrfc_show_ccb': '',
 
 try:
 
-    FILE_NAME = time.strftime("%Y%m%d_%H%M%S", time.localtime())
     config = configparser.ConfigParser()
     if os.path.exists(INI_FILE) is False:
         config["VPBX"] = {'IP': '172.102.201.24',
@@ -48,7 +47,7 @@ try:
           "【* 端口】：       vpbx的SSH端口，默认是9922\n" \
           "【* 用户名】：   vpbx的SSH用户名，默认是root\n" \
           "【* 密码】：       vpbx的SSH密码，默认是raisecom!@#$"
-    title = "VPBX测试诊断工具 v1.1.2                      author：wxl"
+    title = "VPBX测试诊断工具 v1.1.3                      author：wxl"
     fieldNames = ["    *IP地址 ", "    *端口 ", "    *用户名 ", "    *密码 "]
     fieldValues = []
     ret = g.multenterbox(msg, title, fieldNames, values=[config['VPBX']['IP'], config['VPBX']['PORT'], config['VPBX']['USERNAME'], config['VPBX']['PASSWD']])
@@ -182,11 +181,8 @@ try:
             tb.add_row(line)
         return tb
 
-
-    if __name__ == "__main__":
-
-        resource = VpbxEmsConfig()
-        ssh = SshConnect()
+    def all_process(resource, ssh):
+        FILE_NAME = time.strftime("%Y%m%d_%H%M%S", time.localtime())
         os.chdir(DEST_DIR)
         if os.path.exists("log") is False:
             os.makedirs("log")
@@ -199,10 +195,12 @@ try:
                                          ("cd %s;tar zcvf SPU_runlog.tar.gz runlog.log" % SPU_RUN_LOG,),
                                          ("cd %s;tar zcvf DMU_runlog.tar.gz runlog.log" % DMU_RUN_LOG,)))
         core_title = ['   Core File   ', 'Size', 'Creat Time']
-        core_list = ssh.ssh_exec_command("ls -alth /data/corefile | grep core | awk '{print $9}'").read().decode().split( )
-        core_size_list = ssh.ssh_exec_command("ls -alth /data/corefile | grep core | awk '{print $5}'").read().decode().split( )
+        core_list = ssh.ssh_exec_command(
+            "ls -alth /data/corefile | grep core | awk '{print $9}'").read().decode().split()
+        core_size_list = ssh.ssh_exec_command(
+            "ls -alth /data/corefile | grep core | awk '{print $5}'").read().decode().split()
         core_time_list = ssh.ssh_exec_command("ls -alth --time-style '+%Y/%m/%d_%H:%M:%S' /data/corefile | grep core |"
-                                              " awk '{print $6}'").read().decode().split( )
+                                              " awk '{print $6}'").read().decode().split()
         core = sum_table(core_title, core_list, core_size_list, core_time_list)
         with open('result.log', 'w') as f:
             f.write('1.VPBX系统中存在 %s 个core文件，core文件信息:\n\n' % len(core_list))
@@ -212,7 +210,7 @@ try:
             else:
                 f.write(sum_table_normal(core_title, ['None（not exist）', '-', '-']).get_string() + '\n\n')
         with open('result.log', 'a') as f:
-            f.write('2.VPBX语音资源占用信息：\n\n                  AS、MRF资源占用信息'+ '\n')
+            f.write('2.VPBX语音资源占用信息：\n\n                  AS、MRF资源占用信息' + '\n')
 
         for key, value in RESOURCE_COMMANDS.items():
             RESOURCE_COMMANDS[key] = resource.qu(key)
@@ -249,16 +247,28 @@ try:
             f.write('  SPU calllog: calllog最新日志下载完成\n')
             f.write('  DMU calllog: calllog最新日志下载完成\n\n')
 
+        my_thread(ssh.sftp_download, (
+        (BSU_RUN_LOG + 'BSU_runlog.tar.gz', DEST_DIR + '\\' + 'log' + '\\' + FILE_NAME + '\\' + 'BSU_runlog.tar.gz'),
+        (BSU_CALL_LOG + 'BSU_calllog.tar.gz', DEST_DIR + '\\' + 'log' + '\\' + FILE_NAME + '\\' + 'BSU_calllog.tar.gz'),
+        (SPU_RUN_LOG + 'SPU_runlog.tar.gz', DEST_DIR + '\\' + 'log' + '\\' + FILE_NAME + '\\' + 'SPU_runlog.tar.gz'),
+        (DMU_RUN_LOG + 'DMU_runlog.tar.gz', DEST_DIR + '\\' + 'log' + '\\' + FILE_NAME + '\\' + 'DMU_runlog.tar.gz')))
+        my_thread(ssh.ssh_exec_command,
+                  (("rm -f %s/BSU_runlog.tar.gz" % BSU_RUN_LOG,), ("rm -f %s/BSU_calllog.tar.gz" % BSU_CALL_LOG,),
+                   ("rm -f %s/SPU_runlog.tar.gz" % SPU_RUN_LOG,), ("rm -f %s/DMU_runlog.tar.gz" % DMU_RUN_LOG,)))
+        r = g.textbox(msg='一、VPBX的CORE文件、语音资源占用及各网元日志：\n\n\n  查询执行时间:  ' +
+                      time.strftime("%Y.%m.%d %H:%M:%S",
+                                    time.localtime()) + '\n\n  本地存储路径：' + ' ' + DEST_DIR + '\\' + 'log' +
+                      '\\' + FILE_NAME, title='VPBX测试诊断结果',
+                  text=open(DEST_DIR + '\\' + 'log' + '\\' + FILE_NAME + '\\result.log', 'r'))
+        return r
+    if __name__ == "__main__":
 
-        my_thread(ssh.sftp_download, ((BSU_RUN_LOG+'BSU_runlog.tar.gz', DEST_DIR + '\\' + 'log' + '\\' + FILE_NAME + '\\' + 'BSU_runlog.tar.gz'),
-                                      (BSU_CALL_LOG+'BSU_calllog.tar.gz', DEST_DIR + '\\' + 'log' + '\\' + FILE_NAME + '\\' + 'BSU_calllog.tar.gz'),
-                                      (SPU_RUN_LOG+'SPU_runlog.tar.gz', DEST_DIR + '\\' + 'log' + '\\' + FILE_NAME + '\\' + 'SPU_runlog.tar.gz'),
-                                      (DMU_RUN_LOG+'DMU_runlog.tar.gz', DEST_DIR + '\\' + 'log' + '\\' + FILE_NAME + '\\' + 'DMU_runlog.tar.gz')))
-        my_thread(ssh.ssh_exec_command, (("rm -f %s/BSU_runlog.tar.gz" % BSU_RUN_LOG,), ("rm -f %s/BSU_calllog.tar.gz" % BSU_CALL_LOG,),
-                                         ("rm -f %s/SPU_runlog.tar.gz" % SPU_RUN_LOG,), ("rm -f %s/DMU_runlog.tar.gz" % DMU_RUN_LOG,)))
-        g.textbox(msg='一、VPBX的CORE文件、语音资源占用及各网元日志：\n\n\n  查询执行时间:  ' +
-                      time.strftime("%Y.%m.%d %H:%M:%S", time.localtime()) +'\n\n  本地存储路径：'+' '+DEST_DIR + '\\' + 'log' +
-                      '\\' + FILE_NAME, title='VPBX测试诊断结果', text=open(DEST_DIR + '\\' + 'log' + '\\' + FILE_NAME + '\\result.log', 'r'))
+        resource = VpbxEmsConfig()
+        ssh = SshConnect()
+        while True:
+            if all_process(resource, ssh) is None:
+                break
+
 except Exception as e:
     if e.__str__() == 'cancel':
         pass

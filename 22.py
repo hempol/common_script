@@ -1,10 +1,11 @@
-# -*- coding:utf8 -*-
-# author:wxl
-# time:
 
-import urllib3
+from goto import with_goto
 
-sckey = 'SCU69514Tab67d5086613af48df5b383201b3d1875dfa08537e0ac'
 
-def send(text, desp):
-    pass
+print("1")
+
+print("2")
+goto(10)
+print("3")
+callable(10)
+print("4")
